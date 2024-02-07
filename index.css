@@ -1,8 +1,8 @@
-html, body {
-	height: 100%;
+body {
+	/* height: 100%; */
 	width: 100%;
-	background: #122139;
-	overflow: hidden;
+	background: #000000;
+	overflow-x: hidden;
   }
   
   .container {
@@ -23,14 +23,14 @@ html, body {
 	position: absolute;
   }
   .container .glass {
-	height: 420px;
-	width: 250px;
+	height: 500px;
+	width: 300px;
 	border: 3px solid rgba(255, 255, 255, 0.5);
 	-moz-border-radius: 300px 300px 0px 0px;
 	-webkit-border-radius: 300px;
 	border-radius: 300px 300px 0px 0px;
-	left: -80px;
-	top: -100px;
+	left: -100px;
+	top: -120px;
 	border-bottom: 15px solid rgba(255, 255, 255, 0.5);
   }
   .container .glass:after {
