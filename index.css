@@ -552,28 +552,25 @@ html, body {
 	}
   }
   
-
-  .text {
-
-  }
-
   
 .love{
-margin: auto;
-  text-align: center;
   display: flex;
   font-size: 14em;
   text-align: center;
+  margin-right: 112px;
 }
 
 .letters{
   text-shadow: 0 0 10px #111, 3px 3px 5px #121212;
   line-height: 0.9em;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
 }
 
-._1 {color: #B81B43;}
+._1 {color: #B81B43; 
+padding-right: 60px;}
 
-._2 {color: #C9204B;}
+._2 {color: #C9204B; padding-left: 60px}
 
 .heart {
   width: 400px;
@@ -625,6 +622,7 @@ margin: auto;
 
 .scale {
 	display: flex;
+	justify-content: center;
 	/* bottom: calc(100vh -0px); */
 	position: relative;
 	zoom: 0.2;	
